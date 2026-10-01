@@ -1,18 +1,10 @@
-import java.util.Scanner;
-
 public class lab {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter your name: ");
-        String name = sc.nextLine();
-
-        System.out.print("Enter your age: ");
-        int age = sc.nextInt();
+        String name = "Viptha";
+        int age = 20;
 
         System.out.println("Hello " + name + "!");
         System.out.println("You are " + age + " years old.");
-
-        sc.close();
     }
 }
